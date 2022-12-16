@@ -1,0 +1,27 @@
+.single-service {
+    border: 1px solid rgb(61, 60, 59);
+    padding: 40px 20px;
+    transition: all 0.4s ease;
+}
+
+.single-service:hover {
+    box-shadow: 2px 0px 5px rgb(78, 78, 78);
+    position: relative;
+    bottom: 10px;
+}
+
+.single-service img {
+    margin-bottom: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.single-service h2 {
+    margin-bottom: 20px;
+}
+
+.single-service p {
+    font-size: 15px;
+    line-height: 22px;
+    color: rgb(161, 160, 160);
+}

@@ -1,0 +1,124 @@
+.banner {
+    background-image: url('https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-text {
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+    background-color: #22212179;
+
+}
+
+.banner-heading {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.banner-title {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.banner-description {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.resume-btn {
+    background-color: #e65f78;
+    border: 1px solid #e65f78;
+    border-radius: 30px;
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s;
+    letter-spacing: 0.9px;
+    color: #fff;
+    box-shadow: 2px 2px 12px rgb(15, 10, 10);
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.resume-btn:hover {
+    background-color: #22212179;
+
+}
+
+.animation-btn {
+    background-color: #22212179;
+    border: 2px solid #e65f78;
+    border-radius: 30px;
+    padding: 25px 12px 10px;
+    font-size: 14px;
+    color: #e65f78;
+    font-weight: 700;
+    box-shadow: 2px 2px 12px rgb(15, 10, 10);
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+    animation-name: runner;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+.animation-area {
+    height: 50px;
+}
+
+@keyframes runner {
+    0% {
+        margin-bottom: 0;
+    }
+
+    10% {
+        margin-bottom: 40px;
+    }
+
+    20% {
+        margin-top: 20px;
+    }
+
+    30% {
+        margin-bottom: 0px;
+    }
+
+    40% {
+        margin-top: 30px;
+    }
+
+    50% {
+        margin-bottom: 40px;
+    }
+
+    60% {
+        margin-top: 40px;
+    }
+
+    100% {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .banner-text {
+        width: 90%;
+
+    }
+}

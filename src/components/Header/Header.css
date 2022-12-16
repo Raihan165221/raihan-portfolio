@@ -1,0 +1,13 @@
+.header {
+    background-color: rgb(73, 73, 73);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
