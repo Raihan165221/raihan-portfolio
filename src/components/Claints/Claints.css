@@ -1,10 +1,29 @@
 .claints-section {
     background-color: #26282b;
 
+    padding: 100px 20px;
 }
 
 .claints-title {
-    padding: 100px 20px;
     text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.claints-title h1 {
+    margin-bottom: 30px;
+}
+
+.claints-title p {
+    font-size: 18px;
+    color: rgb(179, 177, 177);
+}
+
+.claints-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slick-dots li button:before {
     color: white;
 }

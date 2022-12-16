@@ -1,0 +1,40 @@
+.single-claint {
+    text-align: center;
+    border: 1px solid rgb(61, 60, 59);
+    transition: all 0.4s ease;
+    padding: 20px 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.single-claint:hover {
+    box-shadow: 2px 0px 5px rgb(78, 78, 78);
+    position: relative;
+    bottom: 10px;
+}
+
+
+
+
+.single-claint img {
+    width: 150px;
+    height: 150px;
+    border: 5px dashed gray;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.single-claint h3 {
+    color: white;
+}
+
+.single-claint p {
+    color: rgb(167 167 167);
+    margin-top: 10px;
+}
+
+.single-claint span {
+    color: rgb(241, 38, 38);
+    margin-top: 10px;
+    display: inline-block;
+}
