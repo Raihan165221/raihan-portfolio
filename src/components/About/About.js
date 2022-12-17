@@ -1,5 +1,7 @@
 import React from 'react';
 import raihanImg from '../../images/raihan.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationPin, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import './About.css';
 const About = () => {
     return (
@@ -14,7 +16,13 @@ const About = () => {
                     <p>I am a Professional Web Developer, I am from Bangladesh. Learning new things is my hobby. I love to make new thins.</p>
                     <p>I am a pixel-perfect web designer and also an experienced and expert in the web development section and working since 2021. Full and fresh hand code is my power. Client satisfaction is my first priority.</p>
                     <p>My design is simple & fresh, SEO optimized. I work flexibly with clients to fulfill their design & development needs. Use my work in your Business, Portfolio, Agency, Photography, E-Commerce & much more.</p>
+                    <div>
+                        <FontAwesomeIcon className='icon-style' icon={faPhone} />
+                        <FontAwesomeIcon className='icon-style' icon={faEnvelope} />
+                        <FontAwesomeIcon className='icon-style' icon={faLocationPin} />
+                    </div>
                 </div>
+
             </div>
         </div>
     );

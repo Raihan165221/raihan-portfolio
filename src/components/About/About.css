@@ -5,7 +5,7 @@
 
 .about-container {
     width: 80%;
-    padding: 50px 0;
+    padding: 90px 0;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -43,6 +43,20 @@
 .about-details p {
     color: #a0a0ac;
     line-height: 25px;
+}
+
+.icon-style {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    transition: all 0.4s;
+    margin-right: 15px;
+}
+
+.icon-style:hover {
+    color: #e65f78;
+    border: 2px solid #e65f78;
 }
 
 @media only screen and (max-width: 900px) {

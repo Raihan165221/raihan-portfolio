@@ -1,13 +1,38 @@
-.header {
+.header-section {
+    padding: 20px 0;
     background-color: rgb(255, 255, 255);
-    padding: 20px;
     position: fixed;
     width: 100%;
     z-index: 1;
 }
 
-.header a {
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
     color: black;
     margin-left: 20px;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .header-container {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .profile-name {
+        font-size: 13px;
+    }
+
+    .navbar a {
+        margin-left: 10px;
+        font-size: 14px;
+    }
 }
